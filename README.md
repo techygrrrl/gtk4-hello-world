@@ -6,6 +6,7 @@ These are the instructions for macOS.
 
 - [Install GTK](#install-gtk)
 - [Install Meson](#install-meson)
+- [Install Ninja](#install-ninja)
 - [Set up the project with Meson](#set-up-the-project-with-meson)
 - [Compile the code](#compile-the-code)
 - [Set up in CLion](#set-up-in-clion)
@@ -39,6 +40,11 @@ This installs it to `~/.local/bin`. Ensure this is on your path. If you type `me
 # Add pip3 packages to my path
 export PATH="$HOME/Library/Python/3.11/bin:$PATH"
 ```
+
+## Install Ninja
+
+Download an executable from the [release page](https://github.com/ninja-build/ninja/releases) and drop it into any directory on your path, e.g. `~/.local/bin`.
+
 
 ## Set up the project with Meson
 
