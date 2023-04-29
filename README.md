@@ -12,6 +12,7 @@ These are the instructions for macOS.
   - [Project setup](#project-setup)
   - [Command setup](#command-setup)
 
+![](screenshot-gtk-hello-world.png)
 
 ## Install GTK
 
