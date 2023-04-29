@@ -1,16 +1,11 @@
 #include <stdio.h>
 #include <gtk/gtk.h>
 
-static void
-print_hello (GtkWidget *widget,
-             gpointer   data)
-{
+static void print_hello (GtkWidget *widget, gpointer data) {
     g_print ("Hello World\n");
 }
 
-static void
-activate (GtkApplication *app, gpointer user_data)
-{
+static void activate (GtkApplication *app, gpointer user_data) {
     GtkWidget *window;
     GtkWidget *button;
 
@@ -25,9 +20,7 @@ activate (GtkApplication *app, gpointer user_data)
     gtk_window_present (GTK_WINDOW (window));
 }
 
-int
-main (int argc, char **argv)
-{
+int main (int argc, char **argv) {
     GtkApplication *app;
     int status;
 
